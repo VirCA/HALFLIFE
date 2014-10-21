@@ -1,0 +1,20 @@
+material monitor
+{
+	technique
+	{
+		pass
+		{
+		ambient 0.749019607843137 0.749019607843137 0.749019607843137
+		diffuse 0.749019607843137 0.749019607843137 0.749019607843137
+		specular 0.0 0.0 0.0 0.0
+		emissive 0.6 0.6 0.6
+
+			texture_unit
+			{
+				texture monitor1.tga
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+material cell
+{
+	technique
+	{
+		pass
+		{
+      ambient 0.850980392156863 0.850980392156863 0.850980392156863
+      diffuse 0.850980392156863 0.850980392156863 0.850980392156863
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.47 0.47 0.47
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture plasterceiling008a.tga
+				transform 2.5 0 0 0 0 2.5 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}

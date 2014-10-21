@@ -1,0 +1,21 @@
+material 15-Default
+{
+	technique
+	{
+		pass
+		{
+		ambient 0.850980392156863 0.850980392156863 0.850980392156863
+		diffuse 0.850980392156863 0.850980392156863 0.850980392156863
+		specular 0.0 0.0 0.0 0.0
+		emissive 0.47 0.47 0.47
+			
+
+			texture_unit
+			{
+				texture filecabinet.tga
+			}
+		}
+
+	}
+
+}

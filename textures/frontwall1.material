@@ -1,0 +1,23 @@
+material 09-Default
+{
+	technique
+	{
+		pass
+		{
+		ambient 0.850980392156863 0.850980392156863 0.850980392156863
+		diffuse 0.850980392156863 0.850980392156863 0.850980392156863
+		specular 0.0 0.0 0.0 0.0
+		emissive 0.23 0.23 0.23
+		texture_unit
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture plasterwall005a.tga
+				transform 3 0 0 0 0 3 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}

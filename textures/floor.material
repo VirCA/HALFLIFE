@@ -1,0 +1,23 @@
+material 07-Default
+{
+	technique
+	{
+		pass
+		{
+		ambient 0.749019607843137 0.749019607843137 0.749019607843137
+		diffuse 0.749019607843137 0.749019607843137 0.749019607843137
+		specular 0.0 0.0 0.0 0.0
+		emissive 0.23 0.23 0.23
+      // texture size: 14.5669291338583, 14.5669291338583
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture tilefloor.tga
+				transform 2.5 0 0 0 0 2.5 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
